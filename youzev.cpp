@@ -31,11 +31,16 @@ using namespace std;
     }
 void solve()
 {
-    string s; cin>>s;
-    string t; cin>>t;
-    cout<<s.length()<<" "<<t.length()<<endl;
-    cout<<s<<" "<<t<<endl;
-    
+    string s;
+    getline(cin,s);
+    forn(i,s.length()){
+        if(s[i]!='\\'){
+            cout<<s[i];
+        }else{
+            break;
+        }
+    }
+    cot("");
 }
 
 Free_Palestine
