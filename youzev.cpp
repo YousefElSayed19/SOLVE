@@ -35,6 +35,7 @@ void solve()
     string t; cin>>t;
     cout<<s.length()<<" "<<t.length()<<endl;
     cout<<s<<" "<<t<<endl;
+    
 }
 
 Free_Palestine
